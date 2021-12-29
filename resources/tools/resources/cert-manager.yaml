@@ -27,12 +27,12 @@ spec:
       values: |
         cainjector:
           image:
-            tag: "v0.16.1"
+            tag: "v1.6.1"
         webhook:
           image:
-            tag: "v0.16.1"
+            tag: "v1.6.1"
         image:
-          tag: "v0.16.1"
+          tag: "v1.6.1"
   syncPolicy:
     automated:
       prune: true
