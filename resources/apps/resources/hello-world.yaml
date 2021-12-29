@@ -22,7 +22,7 @@ spec:
   project: apps
   source:
     path: .
-    repoURL: https://github.com/atoy3731/hello-world-manifests.git
+    repoURL: https://github.com/lerytke/hello-world-manifests.git
     targetRevision: master
     helm:
       values: |
@@ -33,8 +33,8 @@ spec:
             cert-manager.io/cluster-issuer: demo-issuer
             traefik.ingress.kubernetes.io/redirect-entry-point: https
           hosts:
-            - host: app.demo.atoy.dev
+            - host: app.demo.eal-dtoe.net
           tls:
             - secretName: demo-app-tls
               hosts:
-                - app.demo.atoy.dev
+                - app.demo.eal-dtoe.net
