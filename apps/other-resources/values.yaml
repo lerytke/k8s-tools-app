@@ -5,6 +5,6 @@ argoHost: argo.example.com
 argoTlsSecret: tls-argo-ingress
 
 # Set this to the email of your cluster issuer
-issuerEmail: john.doe@example.com
+issuerEmail: eric.levine@equilibriumtech.com
 
 httpsRedirect: true
