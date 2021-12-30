@@ -19,7 +19,7 @@ spec:
     helm:
       values: |
         argoHost: "argo.demo.eal-dtoe.net"
-        issuerEmail: "eric@eal-dtoe.net"
+        issuerEmail: "eric.levine@equilibriumtech.com"
   syncPolicy:
     automated:
       prune: true
