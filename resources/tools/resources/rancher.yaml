@@ -25,7 +25,7 @@ spec:
     targetRevision: master
     helm:
       values: |
-        hostname: "rancher.demo.atoy.dev"
+        hostname: "rancher.demo.eal-dtoe.net"
         rancherImageTag: "v2.4.8"
         ingress:
           tls:
